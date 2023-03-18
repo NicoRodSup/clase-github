@@ -17,8 +17,8 @@
     <header>
       <nav>
         <ul class="encabezado__menu">
-            <li><h3><a href="index.php">INICIO</a></h3></li>
-            <li><h3><a href="#miranos">MIRANOS</a> </h3></li>
+            <li><h3><a href="index.php">PROBANDO</a></h3></li>
+            <li><h3><a href="#miranos">CAMBIARLOS</a> </h3></li>
             <li><h3><a href="#discografia">MATERIAL</a> </h3></li>   
             <li><h3><a href="#seguinos"> SEGUINOS</a></h3></li>
             <li><h3><a href="novedades.php">LETRAS</a></h3></li>
