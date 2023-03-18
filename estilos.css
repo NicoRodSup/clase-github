@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+header{
+    height: 80px;
+    background:black;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    
+
+}
+
+.encabezado__menu{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.encabezado__menu li{
+    display: inline-block;
+}
+
+.encabezado__menu a{
+    text-decoration: none;
+    color:honeydew;
+    font-size: 35px;
+    transition: all 500ms ease;
+
+}
+
+.encabezado__menu a:hover{
+    color: #e7a8a4;
+}
+
+.imagen__principal{
+    width:100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagen__principal img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.caja__miranos{
+    width: 100%;
+}
+
+.miranos__envivo{
+    
+    overflow: hidden;
+    background-color: white;
+    height: 100vh;
+
+}
+
+.miranos__envivo h2{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(30, 37, 37);
+    margin: 20px;
+}
+
+.videos__envivo{
+    align-items: center;
+    height: auto;
+    display: flex;
+    justify-content:space-between
+}
+
+.caja__discografia{
+    width: 100%;
+
+}
+
+.discografia h3{
+    font-size: 50px;
+    text-align: center;
+    color:wheat;
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.discografia{
+
+    overflow: hidden;
+    background-color: black;
+    height: 100vh;
+}
+
+.discografia__videos{
+    align-items: center;
+    height: auto;
+    display: flex;
+    justify-content:space-between
+    
+    }
+
+.contacto_contacto h3{
+    font-size: 50px;
+    text-align: center; 
+    color:rgb(30, 37, 37);
+    margin: 20px;
+}
+
+.contacto_contacto{
+    background-color: #e7a8a4;
+    width: 100%;
+    height: 15vw;
+    padding-top: 10px;
+
+}
+
+.redes__redes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.formulario_contacto{
+
+    background-color: #e7a8a4;
+    width: 100%;
+    height: 5vw;
+    padding-top: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+   
+.formulario_contacto a{
+    color:rgb(30, 37, 37);
+    font-size: 35px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.contenedor_galeria{
+    width: 100%;
+}
+
+.fotos_js{
+    background-color: white;
+    height: 50vh;
+    width: 100wh;
+    align-items: center;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+}
+.fotos_js img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.footer{
+    background-color: black;
+    height: 8vh;
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    font-size: 20px;
+    margin-top: auto;
+    }
+
+    /*PAGINA NOVEDADES*/
+
+.caja__novedades{
+    width: 100%;
+}
+
+.novedades a{
+    text-align: center;
+    color:white;
+    margin: 20px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.novedades{
+    overflow: hidden;
+    background-color:black;
+    height: 40vh;
+
+}
+
+.menu__novedades{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__novedades a{
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.info_novedades{
+    overflow: hidden;
+    background-color:black;
+    height: 100vh;
+}
+
+.info_novedades h2{
+    color: #e7a8a4;
+}
+
+/*PAGINA CONTACTO*/
+
+.formulario_contactame{
+    margin:1rem;
+    padding: 2rem;
+    width: 80%;
+    text-align: center;
+}
+
+.formulario_contactame h1{
+    font-size: 40px;
+}
+
+.contacto_input{
+    width: 100%;
+    display: block;
+    margin: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.contacto_btn{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 1rem;
+    
+}
+
+
+
+
+@media(min-width:576px){
+
+.encabezado__menu a{
+    font-size: 20px;
+}
+
+.miranos__envivo h2{
+    font-size: 30px;
+}
+
+.discografia{
+    padding: 20px;
+}
+
+.discografia h3{
+    font-size: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+}
+
+.contacto_contacto{
+    padding-top: 0px;
+}
+.contacto_contacto h3{
+    font-size: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.redes__redes img{
+    width: 50px;
+    height: 50px;
+}
+
+.redes__redes{
+    padding-top: 10px;
+}
+
+.formulario_contacto a{
+    font-size: 25px;
+}
+
+
+  }
+
+@media(min-width:768px){
+
+.encabezado__menu a{
+    font-size: 28px;
+}
+
+.miranos__envivo h2{
+    font-size: 40px;
+}
+
+.discografia h3{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.contacto_contacto h3{
+    font-size: 40px;
+}
+
+.redes__redes{
+    padding-top: 20px;
+}
+ }
+
+ @media(min-width:992px){
+    
+.encabezado__menu a{
+    font-size: 35px;
+}
+
+.miranos__envivo h2{
+    font-size: 50px;
+}
+
+.discografia h3{
+    font-size: 50px;}
+
+.contacto_contacto h3{
+    font-size: 50px;
+}
+
+.redes__redes img{
+    width: 90px;
+    height: 90px;
+}
+
+.redes__redes{
+    padding-top: 0px;
+}
+  }
+
+@media(min-width:1300px){
+
+.redes__redes{
+    padding-top: 0px;
+}
+
+.redes__redes img{
+    width: 120px;
+    height: 120px;
+}
+
+.formulario_contacto a{
+font-size:50px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
